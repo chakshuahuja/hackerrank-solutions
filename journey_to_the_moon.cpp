@@ -2,7 +2,7 @@
 #include <vector>
 #include <list>
 
-void dfs(std::vector< std::list<int> > adjacencyList, int s, int *visited, int no_of_astronauts) {
+void dfs(std::vector< std::list<int> >& adjacencyList, int s, int *visited, int no_of_astronauts) {
   visited[s] = true;
   for(std::list<int>::iterator it = adjacencyList[s].begin(); it != adjacencyList[s].end(); ++it) {
     if(!visited[*it]) {
@@ -45,10 +45,12 @@ int main() {
     }
   }
   long long answer = 0;
+  long long sum = 0;
   for(int i = 0; i < no_of_components; i++) {
-    for(int j = i+1; j < no_of_components; j++) {
-      answer += (count[i]*count[j]);
-    }
+    sum = sum + count[i];
   }
-  std::cout << answer << std::endl;
+  for(int i = 0; i < no_of_components; i++) {
+    answer += ((sum - count[i]) * count[i]);
+  }
+  std::cout << answer / 2 << std::endl;
 }
