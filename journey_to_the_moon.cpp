@@ -1,10 +1,18 @@
 #include <iostream>
 #include <vector>
 #include <list>
-
+int cnt = 0;
+long long nC2(long long n) {
+  if(n < 2)
+    return 0;
+  else
+    return (n * (n-1))/2; 
+}
 void dfs(std::vector< std::list<int> >& adjacencyList, int s, int *visited, int no_of_astronauts) {
   visited[s] = true;
-  for(std::list<int>::iterator it = adjacencyList[s].begin(); it != adjacencyList[s].end(); ++it) {
+  cnt++;
+  std::list<int>::iterator it;
+  for(it = adjacencyList[s].begin(); it != adjacencyList[s].end(); ++it) {
     if(!visited[*it]) {
       dfs(adjacencyList, *it, visited, no_of_astronauts);
     }
@@ -29,28 +37,17 @@ int main() {
   int count[l];
   for(int i = 0; i < no_of_astronauts; i++) {
     if(!visited[i]) {
-      int visited_before = 0;
-      for(int j = 0; j < no_of_astronauts; j++) {
-	if(visited[j])
-	  visited_before++;
-      }
+      cnt = 0;
       dfs(adjacencyList, i, visited, no_of_astronauts);
-      int visited_after = 0;
-      for(int j = 0; j < no_of_astronauts; j++) {
-	if(visited[j])
-	  visited_after++;
-      }
-      count[no_of_components] = visited_after - visited_before;
+      count[no_of_components] = cnt;
       no_of_components++;
     }
   }
   long long answer = 0;
-  long long sum = 0;
-  for(int i = 0; i < no_of_components; i++) {
-    sum = sum + count[i];
+  long long total_pairs = nC2(no_of_astronauts);
+  for(long long i = 0; i < no_of_components; i++) {
+    if(count[i] > 1)
+      answer += (nC2(count[i]));
   }
-  for(int i = 0; i < no_of_components; i++) {
-    answer += ((sum - count[i]) * count[i]);
-  }
-  std::cout << answer / 2 << std::endl;
+  std::cout << total_pairs - answer << std::endl;
 }
