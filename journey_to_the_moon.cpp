@@ -1,11 +1,12 @@
 #include <iostream>
-void dfs(int *graph, int s, int *visited, int no_of_astronauts) {
+#include <vector>
+#include <list>
+
+void dfs(std::vector< std::list<int> > adjacencyList, int s, int *visited, int no_of_astronauts) {
   visited[s] = true;
-  for(int i = 0; i < no_of_astronauts; i++) {
-    if(*((graph + s*no_of_astronauts) + i)) {
-      if(!visited[i]) {
-	dfs(graph, i, visited, no_of_astronauts);
-      }
+  for(std::list<int>::iterator it = adjacencyList[s].begin(); it != adjacencyList[s].end(); ++it) {
+    if(!visited[*it]) {
+      dfs(adjacencyList, *it, visited, no_of_astronauts);
     }
   }
 }
@@ -13,17 +14,12 @@ int main() {
   int no_of_astronauts;
   int l;
   std::cin >> no_of_astronauts >> l;
-  int graph[no_of_astronauts][no_of_astronauts];
-  for(int i = 0; i < no_of_astronauts; i++) {
-    for(int j = 0; j < no_of_astronauts; j++) {
-      graph[i][j] = 0;
-    }
-  }
+  std::vector< std::list<int> > adjacencyList(no_of_astronauts + 1);
   for(int i = 0; i < l; i++) {
     int A, B;
     std::cin >> A >> B;
-    graph[A][B] = 1;
-    graph[B][A] = 1;
+    adjacencyList[A].push_back(B);
+    adjacencyList[B].push_back(A);
   }
   int visited[no_of_astronauts];
   for(int i = 0; i < no_of_astronauts; i++) {
@@ -38,7 +34,7 @@ int main() {
 	if(visited[j])
 	  visited_before++;
       }
-      dfs((int*)graph, i, visited, no_of_astronauts);
+      dfs(adjacencyList, i, visited, no_of_astronauts);
       int visited_after = 0;
       for(int j = 0; j < no_of_astronauts; j++) {
 	if(visited[j])
@@ -48,7 +44,7 @@ int main() {
       no_of_components++;
     }
   }
-  int answer = 0;
+  long long answer = 0;
   for(int i = 0; i < no_of_components; i++) {
     for(int j = i+1; j < no_of_components; j++) {
       answer += (count[i]*count[j]);
