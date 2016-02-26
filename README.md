@@ -11,6 +11,8 @@ https://www.hackerrank.com/challenges/journey-to-the-moon : journey_to_the_moon.
 
 https://www.hackerrank.com/challenges/bfsshortreach : bfsshortreach.cpp
 
+https://www.hackerrank.com/challenges/subset-component : subset_component.cpp
+
 TODO :
 
 https://www.hackerrank.com/challenges/beadornaments 
