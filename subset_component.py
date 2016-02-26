@@ -1,54 +1,41 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
 import re
 import itertools
+from copy import copy
 N = int(raw_input())
 numbers = map(int, raw_input().split(' '))
-def generateSubsets(numbers):
-    result = [[]]
-    for x in numbers:
-        result.extend([subset + [x] for subset in result])
-    return result
-
-#Implementing Graph Traversal DFS Recursive
-def DFSRecursive(G, s, visited_recursive):
-    visited_recursive[s] = True
-    for w in G[s]:
-        if not visited_recursive[w]:
-            DFSRecursive(G, w, visited_recursive)
-
-#Finding the number of components using DFS
-def noOfComponents(G, visited_recursive):
-    no_of_components = 0
-    for i in range(64):
-        if not visited_recursive[i]:
-            DFSRecursive(G, i, visited_recursive)
-            no_of_components += 1
-    return no_of_components
-
-def solve(numbers):
-    adj_list = {}
-    no_of_nodes = 64
-
-    for i in range(no_of_nodes):
-        adj_list[i] = []
-    components = 64
-    for number in numbers:
-        visited_recursive = []
-        for i in range(64):
-            visited_recursive.append(False)
-
-        bin_number = bin(number)[2:].zfill(64)
-        count1s = [m.start() for m in re.finditer('1', bin_number)]
-        pairs = list(itertools.combinations(count1s, 2))
-        for pair in pairs:
-            adj_list[pair[0]].append(pair[1])
-            adj_list[pair[1]].append(pair[0])
+def find1sSet(num):
+    return set([m.start() for m in re.finditer('1', bin(num)[2:][::-1])])
     
-        components = noOfComponents(adj_list, visited_recursive)
-    return components
+def merge(a, b):
+    overlap = False
+    union = copy(a)
+    for ele in b:
+        if ele in a:
+            overlap = True
+        else:
+            union.add(ele)
+    return (union, overlap)
 
-subsets = generateSubsets(numbers)
-sum_of_components = 0
-for subset in subsets:
-    sum_of_components = sum_of_components + solve(subset)
+def solve(start, n, prev, prevContri):
+    ans = 0
+    for i in range(start, n):
+        component = sets[i]
+        if len(component) > 1:
+            (newBits, overlap) = merge(prev, component)
+            if len(prev) == 0 or overlap:
+                contri = 64 - len(newBits) + 1
+            else:
+                contri = prevContri + 1 - len(component) 
+        else:
+            (newBits, contri) = (prev, prevContri)
+        ans += contri + solve(i+1, n, newBits, contri)
+    return ans
+  
 
-print sum_of_components
+sets = []
+for number in numbers:
+    set1s = find1sSet(number)
+    sets.append(set1s)
+    
+print 64 + solve(0, N, set(), 64)
