@@ -1,4 +1,6 @@
 #include <iostream>
+#include <vector>
+#include <algorithm>
 int main() {
   int N, M;
   std::cin >> N >> M;
@@ -30,9 +32,9 @@ int main() {
   int up[N][M];
   for(int i = 0; i < M; i++) {
     if(arr[0][i] == 'x')
-        left[0][i] = -1;
+        up[0][i] = -1;
     else
-        left[0][i] = 0;
+        up[0][i] = 0;
   }
   for(int i = 1; i < N; i++) {
     for(int j = 0; j < M; j++) {
@@ -42,25 +44,28 @@ int main() {
 	up[i][j] = up[i-1][j] + 1;
     }
   }
-  int output[N][M];
-  for(int i = 0; i < N; i++) {
-    for(int j = 0; j < M; j++) {
-      if(left[i][j] == 0 || up[i][j] == 0 || left[i][j] == -1 || up[i][j] == -1)
-	output[i][j] = 0;
-      else {
-	output[i][j] = 2*(left[i][j] + up[i][j]);
+
+  int maximum = 0;
+  for(int r1 = 0; r1 < N; r1++) {
+    for(int r2 = r1+1; r2 < N; r2++) {
+      int rdiff = r2 - r1;
+      std::vector<int> v;
+      for(int i = 0; i < M; i++) {
+	if(up[r2][i] >= rdiff)
+	  v.push_back(i);
+      }
+      int l = 0, r;
+      for(r = 0; r < v.size(); r++) {
+	int min_left = v[r] - std::min(left[r1][v[r]], left[r2][v[r]]);
+	while(v[l] < min_left)
+	  l++;
+	if(v[r] > v[l])
+	  maximum = std::max(maximum, 2*(rdiff) + 2*(v[r] - v[l]));
       }
     }
   }
-  int max = 0;
-  for(int i = 0; i < N; i++) {
-    for(int j = 0; j < M; j++) {
-      if(max < output[i][j])
-	max = output[i][j];
-    }
-  }
-  if(max == 0)
+  if(maximum == 0)
       std::cout << "impossible" << std::endl;
   else
-      std::cout <<  max << std::endl;
+      std::cout <<  maximum << std::endl;
 }
