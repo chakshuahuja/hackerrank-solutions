@@ -13,6 +13,8 @@ https://www.hackerrank.com/challenges/bfsshortreach : bfsshortreach.cpp
 
 https://www.hackerrank.com/challenges/subset-component : subset_component.cpp
 
+https://www.hackerrank.com/challenges/mr-k-marsh : mr_k_marsh.cpp
+
 TODO :
 
 https://www.hackerrank.com/challenges/beadornaments 
