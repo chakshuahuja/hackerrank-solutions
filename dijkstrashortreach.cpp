@@ -1,5 +1,6 @@
 #include <iostream>
-int graph[3001][3001];
+#include <queue>
+#include <list>
 int dist[3001];
 int visited[3001];
 int N, M;
@@ -19,11 +20,8 @@ int main() {
   std::cin >> T;
   for(int t = 0; t < T; t++) {
     std::cin >> N >> M;
-    for(int i = 0; i < N; i++) {
-      for(int j = 0; j < N; j++) {
-	graph[i][j] = -1;
-      }
-    }
+    std::vector< std::list< std::pair<int, int> > > adjacencyList(N);
+    
     for(int i = 0; i < N; i++) {
       dist[i] = 999999;
       visited[i] = false;
@@ -31,24 +29,41 @@ int main() {
     for(int i = 0; i < M; i++) {
       int x, y, r;
       std::cin >> x >> y >> r;
-      if(graph[x-1][y-1] == -1 || graph[x-1][y-1] > r)
-	graph[x-1][y-1] = r; 
-      if(graph[y-1][x-1] == -1 || graph[y-1][x-1] > r)
-	graph[y-1][x-1] = r;
+      int flag = 0;
+      for(std::list< std::pair<int, int> >::iterator it = adjacencyList[x-1].begin(); it != adjacencyList[x-1].end(); ++it) {
+        if(it->first == (y-1)) {  
+          if(it->second > r)
+            it->second = r;
+          flag = 1;
+	}
+      }
+      if(flag == 0)
+        adjacencyList[x - 1].push_back(std::pair<int, int>(y - 1, r));
+      flag = 0;
+      for(std::list< std::pair<int, int> >::iterator it = adjacencyList[y-1].begin(); it != adjacencyList[y-1].end(); ++it) {
+        if(it->first == (x-1)) {  
+          if(it->second > r)
+            it->second = r;
+          flag = 1;
+	}
+      }
+      if(flag == 0)
+        adjacencyList[y - 1].push_back(std::pair<int, int>(x - 1, r));
     }
     int S;
     std::cin >> S;
     dist[S-1] = 0;
     for(int count = 0; count < N-1; count++) {
       int w = minimum_dist();
+      if(w == -1)
+          break;
       visited[w] = true;
-      for(int v = 0; v < N; v++) {
-	if(graph[w][v] != -1 && !visited[v] && dist[w] != 999999) {
-	  if(dist[v] > (dist[w] + graph[w][v]))
-	    dist[v] = dist[w] + graph[w][v];
-	
+      for(std::list< std::pair<int, int> >::iterator v = adjacencyList[w].begin(); v != adjacencyList[w].end(); ++v) {
+	if(!visited[v->first] && dist[w] != 999999) {
+	  if(dist[v->first] > (dist[w] + v->second))
+	    dist[v->first] = dist[w] + v->second;
+        }
       }
-    }
     }
     for(int i = 0; i < N; i++) {
         if(dist[i] == 999999)
