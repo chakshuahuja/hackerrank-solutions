@@ -17,6 +17,8 @@ https://www.hackerrank.com/challenges/mr-k-marsh : mr_k_marsh.cpp
 
 https://www.hackerrank.com/challenges/dijkstrashortreach : dijkstrashortreach.cpp
 
+https://www.hackerrank.com/challenges/primsmstsub : primsmstsub.cpp
+
 TODO :
 
 https://www.hackerrank.com/challenges/beadornaments 
