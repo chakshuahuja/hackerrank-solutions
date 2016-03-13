@@ -19,6 +19,8 @@ https://www.hackerrank.com/challenges/dijkstrashortreach : dijkstrashortreach.cp
 
 https://www.hackerrank.com/challenges/primsmstsub : primsmstsub.cpp
 
+https://www.hackerrank.com/challenges/fibonacci-modified : fibonacci_modified.cpp
+
 TODO :
 
 https://www.hackerrank.com/challenges/beadornaments 
