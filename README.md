@@ -19,7 +19,9 @@ https://www.hackerrank.com/challenges/dijkstrashortreach : dijkstrashortreach.cp
 
 https://www.hackerrank.com/challenges/primsmstsub : primsmstsub.cpp
 
-https://www.hackerrank.com/challenges/fibonacci-modified : fibonacci_modified.cpp
+https://www.hackerrank.com/challenges/fibonacci-modified : fibonacci_modified.py
+
+https://www.hackerrank.com/challenges/diagonal-difference : diagonal_difference.py
 
 TODO :
 
