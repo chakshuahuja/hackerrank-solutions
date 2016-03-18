@@ -23,6 +23,8 @@ https://www.hackerrank.com/challenges/fibonacci-modified : fibonacci_modified.py
 
 https://www.hackerrank.com/challenges/diagonal-difference : diagonal_difference.py
 
+https://www.hackerrank.com/challenges/maxsubarray : maxsubarray.py
+
 TODO :
 
 https://www.hackerrank.com/challenges/beadornaments 
