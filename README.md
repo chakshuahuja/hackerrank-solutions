@@ -25,6 +25,8 @@ https://www.hackerrank.com/challenges/diagonal-difference : diagonal_difference.
 
 https://www.hackerrank.com/challenges/maxsubarray : maxsubarray.py
 
+https://www.hackerrank.com/challenges/candies : candies.py
+
 TODO :
 
 https://www.hackerrank.com/challenges/beadornaments 
