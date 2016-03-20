@@ -27,6 +27,8 @@ https://www.hackerrank.com/challenges/maxsubarray : maxsubarray.py
 
 https://www.hackerrank.com/challenges/candies : candies.py
 
+https://www.hackerrank.com/challenges/matrix-rotation-algo : matrix_rotation_algo.cpp
+
 TODO :
 
 https://www.hackerrank.com/challenges/beadornaments 
