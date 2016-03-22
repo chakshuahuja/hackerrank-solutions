@@ -29,6 +29,8 @@ https://www.hackerrank.com/challenges/candies : candies.py
 
 https://www.hackerrank.com/challenges/matrix-rotation-algo : matrix_rotation_algo.cpp
 
+https://www.hackerrank.com/challenges/find-digits : find_digits.cpp
+
 TODO :
 
 https://www.hackerrank.com/challenges/beadornaments 
