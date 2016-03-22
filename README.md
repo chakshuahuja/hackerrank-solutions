@@ -31,6 +31,8 @@ https://www.hackerrank.com/challenges/matrix-rotation-algo : matrix_rotation_alg
 
 https://www.hackerrank.com/challenges/find-digits : find_digits.cpp
 
+https://www.hackerrank.com/challenges/the-grid-search : the_grid_search.cpp
+
 TODO :
 
 https://www.hackerrank.com/challenges/beadornaments 
