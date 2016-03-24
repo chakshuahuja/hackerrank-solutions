@@ -33,6 +33,8 @@ https://www.hackerrank.com/challenges/find-digits : find_digits.cpp
 
 https://www.hackerrank.com/challenges/the-grid-search : the_grid_search.cpp
 
+https://www.hackerrank.com/challenges/encryption : encryption.cpp
+
 TODO :
 
 https://www.hackerrank.com/challenges/beadornaments 
