@@ -35,6 +35,8 @@ https://www.hackerrank.com/challenges/the-grid-search : the_grid_search.cpp
 
 https://www.hackerrank.com/challenges/encryption : encryption.cpp
 
+https://www.hackerrank.com/challenges/morgan-and-a-string : morgan_and_a_string.py
+
 TODO :
 
 https://www.hackerrank.com/challenges/beadornaments 
