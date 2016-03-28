@@ -37,6 +37,8 @@ https://www.hackerrank.com/challenges/encryption : encryption.cpp
 
 https://www.hackerrank.com/challenges/morgan-and-a-string : morgan_and_a_string.py
 
+https://www.hackerrank.com/challenges/pangrams : pangrams.cpp
+
 TODO :
 
 https://www.hackerrank.com/challenges/beadornaments 
