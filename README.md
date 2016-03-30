@@ -39,6 +39,8 @@ https://www.hackerrank.com/challenges/morgan-and-a-string : morgan_and_a_string.
 
 https://www.hackerrank.com/challenges/pangrams : pangrams.cpp
 
+https://www.hackerrank.com/challenges/common-child : common_child.cpp
+
 TODO :
 
 https://www.hackerrank.com/challenges/beadornaments 
