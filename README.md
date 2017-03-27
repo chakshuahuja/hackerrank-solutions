@@ -1,50 +1,12 @@
-# HackerRankSolutions
-Solutions to some of the problems in HackerRank
+## Algorithms
 
-https://www.hackerrank.com/challenges/sherlock-and-anagrams : sherlock_and_anagrams.cpp
+### Warmup
 
-https://www.hackerrank.com/challenges/reverse-shuffle-merge : reverse_shuffle_merge.py
+|Challenge                                                                                                                            | Solution                                                                                                                                                               |Difficult Level|
+|:-----------------------------------------------------------------------------------------------------------------------------------:|:----------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|[Simple Array Sum](https://www.hackerrank.com/challenges/simple-array-sum)|[simple_array_sum.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/Warmup/simple_array_sum.py) |Easy|
+|[Compare The Triplets](https://www.hackerrank.com/challenges/compare-the-triplets)| [compare_triplets.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/Warmup/compare_triplets.py)|Easy|
+|[A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum)| [very_big_sum.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/Warmup/very_big_sum.py)|Easy|
+|[Diagonal Difference](https://www.hackerrank.com/challenges/diagonal-difference)                                                     | [diagonal_difference.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/Warmup/diagonal_difference.py)                                                |    Easy       |
+|[Plus Minus](https://www.hackerrank.com/challenges/plus-minus) | [plus_minus.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/Warmup/plus_minus.py)|Easy|
 
-https://www.hackerrank.com/challenges/flowers : flowers.py
-
-https://www.hackerrank.com/challenges/sherlock-and-array : sherlock_and_array.py
-
-https://www.hackerrank.com/challenges/icecream-parlor : icecream_parlor.py
-
-https://www.hackerrank.com/challenges/journey-to-the-moon : journey_to_the_moon.cpp
-
-https://www.hackerrank.com/challenges/bfsshortreach : bfsshortreach.cpp
-
-https://www.hackerrank.com/challenges/subset-component : subset_component.cpp
-
-https://www.hackerrank.com/challenges/mr-k-marsh : mr_k_marsh.cpp
-
-https://www.hackerrank.com/challenges/dijkstrashortreach : dijkstrashortreach.cpp
-
-https://www.hackerrank.com/challenges/primsmstsub : primsmstsub.cpp
-
-https://www.hackerrank.com/challenges/fibonacci-modified : fibonacci_modified.py
-
-https://www.hackerrank.com/challenges/diagonal-difference : diagonal_difference.py
-
-https://www.hackerrank.com/challenges/maxsubarray : maxsubarray.py
-
-https://www.hackerrank.com/challenges/candies : candies.py
-
-https://www.hackerrank.com/challenges/matrix-rotation-algo : matrix_rotation_algo.cpp
-
-https://www.hackerrank.com/challenges/find-digits : find_digits.cpp
-
-https://www.hackerrank.com/challenges/the-grid-search : the_grid_search.cpp
-
-https://www.hackerrank.com/challenges/encryption : encryption.cpp
-
-https://www.hackerrank.com/challenges/morgan-and-a-string : morgan_and_a_string.py
-
-https://www.hackerrank.com/challenges/pangrams : pangrams.cpp
-
-https://www.hackerrank.com/challenges/common-child : common_child.cpp
-
-TODO :
-
-https://www.hackerrank.com/challenges/beadornaments 
