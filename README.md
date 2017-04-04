@@ -21,6 +21,9 @@
 |Challenge                                                                                                                            | Solution                                                                                                                                                               |Difficult Level|
 |:-----------------------------------------------------------------------------------------------------------------------------------:|:----------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 |[Grading Students](https://www.hackerrank.com/challenges/grading)|[grading.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/Implementation/grading.py)|Easy|
+|[Apple and Orange](https://www.hackerrank.com/challenges/apple-and-orange)|[apple_and_orange.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/Implementation/apple_and_orange.py)|Easy|
+
+
 ## Data Structures
 
 ### Arrays
