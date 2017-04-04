@@ -16,6 +16,11 @@
 |[Time Conversion](https://www.hackerrank.com/challenges/time-conversion)|[time_conversion.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/Warmup/time_conversion.py)|Easy|
 |[Birthday Cake Candles](https://www.hackerrank.com/challenges/birthday-cake-candles)|[birthday_cake_candles.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/Warmup/birthday_cake_candles.py)|Easy|
 
+### Implementation
+
+|Challenge                                                                                                                            | Solution                                                                                                                                                               |Difficult Level|
+|:-----------------------------------------------------------------------------------------------------------------------------------:|:----------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|[Grading Students](https://www.hackerrank.com/challenges/grading)|[grading.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/Implementation/grading.py)|Easy|
 ## Data Structures
 
 ### Arrays
