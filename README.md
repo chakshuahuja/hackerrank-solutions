@@ -38,4 +38,9 @@
 |[Sparse Arrays](https://www.hackerrank.com/challenges/sparse-arrays)|[sparse_arrays.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/DataStructures/Arrays/sparse_arrays.py)|Medium|
 |[Algorithmic Crush](https://www.hackerrank.com/challenges/crush)|[crush.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/DataStructures/Arrays/crush.py)|Hard|
 
+### Linked Lists
+|Challenge                                                                                                                            | Solution                                                                                                                                                               |Difficult Level|
+|:-----------------------------------------------------------------------------------------------------------------------------------:|:----------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|[Print the Elements of a Linked List](https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list)|[print_the_elements_of_a_linked_list.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/DataStructures/LinkedLists/print_the_elements_of_a_linked_list.py)|Easy|
+|[Insert a Node at the Tail of a Linked List](https://www.hackerrank.com/challenges/insert-a-node-at-the-tail-of-a-linked-list)|[insert_a_node_at_tail_of_linked_list.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/DataStructures/LinkedLists/insert_a_node_at_tail_of_linked_list.py)|Easy|
 Feel free to contribute !!
