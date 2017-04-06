@@ -46,5 +46,6 @@
 |[Insert a node at the head of a linked list](https://www.hackerrank.com/challenges/insert-a-node-at-the-head-of-a-linked-list)|[insert_a_node_at_head_of_linked_list.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/DataStructures/LinkedLists/insert_a_node_at_head_of_linked_list.py)|Easy|
 |[Insert a node at a specific position in a linked list](https://www.hackerrank.com/challenges/insert-a-node-at-a-specific-position-in-a-linked-list)|[insert_a_node_at_specific_position_of_linked_list.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/DataStructures/LinkedLists/insert_a_node_at_specific_position_of_linked_list.py)|Easy|
 |[Delete a Node](https://www.hackerrank.com/challenges/delete-a-node-from-a-linked-list)|[delete_a_node_from_linked_list.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/DataStructures/LinkedLists/delete_a_node_from_linked_list.py)|Easy|
+|[Print in Reverse](https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list-in-reverse)|[print_elements_of_linked_list_in_reverse.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/DataStructures/LinkedLists/print_elements_of_linked_list_in_reverse.py)|Easy|
 
 Feel free to contribute !!
