@@ -44,5 +44,7 @@
 |[Print the Elements of a Linked List](https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list)|[print_the_elements_of_a_linked_list.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/DataStructures/LinkedLists/print_the_elements_of_a_linked_list.py)|Easy|
 |[Insert a Node at the Tail of a Linked List](https://www.hackerrank.com/challenges/insert-a-node-at-the-tail-of-a-linked-list)|[insert_a_node_at_tail_of_linked_list.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/DataStructures/LinkedLists/insert_a_node_at_tail_of_linked_list.py)|Easy|
 |[Insert a node at the head of a linked list](https://www.hackerrank.com/challenges/insert-a-node-at-the-head-of-a-linked-list)|[insert_a_node_at_head_of_linked_list.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/DataStructures/LinkedLists/insert_a_node_at_head_of_linked_list.py)|Easy|
+|[Insert a node at a specific position in a linked list](https://www.hackerrank.com/challenges/insert-a-node-at-a-specific-position-in-a-linked-list)|[insert_a_node_at_specific_position_of_linked_list.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/DataStructures/LinkedLists/insert_a_node_at_specific_position_of_linked_list.py)|Easy|
+|[Delete a Node](https://www.hackerrank.com/challenges/delete-a-node-from-a-linked-list)|[delete_a_node_from_linked_list.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/DataStructures/LinkedLists/delete_a_node_from_linked_list.py)|Easy|
 
 Feel free to contribute !!
