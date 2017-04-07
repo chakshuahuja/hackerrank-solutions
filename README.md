@@ -47,5 +47,8 @@
 |[Insert a node at a specific position in a linked list](https://www.hackerrank.com/challenges/insert-a-node-at-a-specific-position-in-a-linked-list)|[insert_a_node_at_specific_position_of_linked_list.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/DataStructures/LinkedLists/insert_a_node_at_specific_position_of_linked_list.py)|Easy|
 |[Delete a Node](https://www.hackerrank.com/challenges/delete-a-node-from-a-linked-list)|[delete_a_node_from_linked_list.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/DataStructures/LinkedLists/delete_a_node_from_linked_list.py)|Easy|
 |[Print in Reverse](https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list-in-reverse)|[print_elements_of_linked_list_in_reverse.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/DataStructures/LinkedLists/print_elements_of_linked_list_in_reverse.py)|Easy|
+|[Reverse a linked list](https://www.hackerrank.com/challenges/reverse-a-linked-list)|[reverse_a_linked_list.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/DataStructures/LinkedLists/reverse_a_linked_list.py)|Easy|
+|[Compare two linked lists](https://www.hackerrank.com/challenges/compare-two-linked-lists)|[compare_two_linked_lists.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/DataStructures/LinkedLists/compare_two_linked_lists.py)|Easy|
+|[Get Node Value](https://www.hackerrank.com/challenges/get-the-value-of-the-node-at-a-specific-position-from-the-tail)|[get_the_value_of_node_at_specific_position_from_tail.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/DataStructures/LinkedLists/get_the_value_of_node_at_specific_position_from_tail.py)|Easy|
 
 Feel free to contribute !!
