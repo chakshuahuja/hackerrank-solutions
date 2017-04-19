@@ -24,6 +24,9 @@
 |[Apple and Orange](https://www.hackerrank.com/challenges/apple-and-orange)|[apple_and_orange.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/Implementation/apple_and_orange.py)|Easy|
 |[Kangaroo](https://www.hackerrank.com/challenges/kangaroo)|[kangaroo.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/Implementation/kangaroo.py)|Easy|
 |[Between Two Sets](https://www.hackerrank.com/challenges/between-two-sets)|[between_two_sets.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/Implementation/between_two_sets.py)|Easy|
+|[Breaking the Records](https://www.hackerrank.com/challenges/breaking-best-and-worst-records)|[breaking_best_and_worst_records.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/Implementation/breaking_best_and_worst_records.py)|Easy|
+|[Birthday Chocolate](https://www.hackerrank.com/challenges/the-birthday-bar)|[the_birthday_bar.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/Implementation/the_birthday_bar.py)|Easy|
+|[Divisible Sum Pairs](https://www.hackerrank.com/challenges/divisible-sum-pairs)|[divisible_sum_pairs.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/Implementation/divisible_sum_pairs.py)|Easy|
 
 
 ## Data Structures
