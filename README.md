@@ -27,7 +27,10 @@
 |[Breaking the Records](https://www.hackerrank.com/challenges/breaking-best-and-worst-records)|[breaking_best_and_worst_records.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/Implementation/breaking_best_and_worst_records.py)|Easy|
 |[Birthday Chocolate](https://www.hackerrank.com/challenges/the-birthday-bar)|[the_birthday_bar.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/Implementation/the_birthday_bar.py)|Easy|
 |[Divisible Sum Pairs](https://www.hackerrank.com/challenges/divisible-sum-pairs)|[divisible_sum_pairs.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/Implementation/divisible_sum_pairs.py)|Easy|
-
+|[Migratory Birds](https://www.hackerrank.com/challenges/migratory-birds)|[migratory_birds.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/Implementation/migratory_birds.py)|Easy|
+|[Bon Appétit](https://www.hackerrank.com/challenges/bon-appetit)|[bon_appetit.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/Implementation/bon_appetit.py)|Easy|
+|[Sock Merchant](https://www.hackerrank.com/challenges/sock-merchant)|[sock_merchant.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/Implementation/sock_merchant.py)|Easy|
+|[Drawing Book](https://www.hackerrank.com/challenges/drawing-book)|[drawing_book.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/Implementation/drawing_book.py)|Easy|
 
 ## Data Structures
 
