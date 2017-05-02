@@ -63,4 +63,13 @@
 |[Inserting a Node Into a Sorted Doubly Linked List](https://www.hackerrank.com/challenges/insert-a-node-into-a-sorted-doubly-linked-list)|[insert_node_into_sorted_doubly_linked_list.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/DataStructures/LinkedLists/insert_node_into_sorted_doubly_linked_list.py)|Easy|
 |[Reverse a doubly linked list](https://www.hackerrank.com/challenges/reverse-a-doubly-linked-list)|[reverse_doubly_linked_list.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/DataStructures/LinkedLists/reverse_doubly_linked_list.py)|Easy|
 
+### Trees
+|Challenge                                                                                                                            | Solution                                                                                                                                                               |Difficult Level|
+|:-----------------------------------------------------------------------------------------------------------------------------------:|:----------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|[Tree: Preorder Traversal](https://www.hackerrank.com/challenges/tree-preorder-traversal)|[preorder_traversal.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/DataStructures/Trees/preorder_traversal.py)|Easy|
+|[Tree: Postorder Traversal](https://www.hackerrank.com/challenges/tree-postorder-traversal)|[postorder_traversal.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/DataStructures/Trees/postorder_traversal.py)|Easy|
+|[Tree: Inorder Traversal](https://www.hackerrank.com/challenges/tree-inorder-traversal)|[inorder_traversal.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/DataStructures/Trees/inorder_traversal.py)|Easy|
+|[Tree: Height of a Binary Tree](https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree)|[height_of_binary_tree.py](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/DataStructures/Trees/height_of_binary_tree.py)|Easy|
+|[Tree : Top View](https://www.hackerrank.com/challenges/tree-top-view)|[tree_top_view.cpp](https://github.com/chakshuahuja/HackerRankSolutions/blob/master/DataStructures/Trees/tree_top_view.cpp)|Easy|
+
 Feel free to contribute !!
